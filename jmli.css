@@ -1,0 +1,407 @@
+/*主体*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  "Microsoft YaHei" ! important;
+}
+/*body{
+  margin-left: 9rem;
+  background: url(images/rose.jpg);
+}*/
+.main{
+    width: 1487px;
+    height: 2104px;
+}
+.strong{
+  color: #FFF ;
+  color: #00E5EE;
+  font-weight: bold;
+}
+.title{
+  font-weight: bold;
+  font-family: "Microsoft YaHei" ! important;
+}
+/*头部*/
+.top-t {
+  width: 568px;
+  height: 2104px;
+  background-color: #00E5EE;
+  background-color: #fff;
+}
+/*图片*/
+.camrea {
+  width: 158px;
+  height: 185px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 200px;
+  margin-top: 108px;
+}
+ .top-left{
+    /*background-color: red;*/
+    float: left;
+    height: 200px;
+    width: 568px;
+}
+
+.top-center{
+    float: left;
+    height: 297px;
+    width: 568px;
+    margin-left: 160px;
+    font-size: 3em;
+}
+/*联系方式*/
+.content{
+  height: 120px;
+  margin-top: 120px;
+  text-align: left;
+  line-height: 38px;
+}
+.content img{
+  margin-bottom: -8px;
+}
+.conversation{
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.conversation a{
+  color: #000;
+  text-decoration: none;
+}
+
+.top-right{
+    background-color: null;
+    float: left;
+    height: 200px;
+    width: 568px;
+    line-height: null;
+    text-align: center;
+    color: white;
+    color: #000;
+    margin-left: 20px;
+}
+/*姓名*/
+.content-name{
+  display: inline-block;
+  height: 100px;
+  margin-top: 5px;
+}
+.gexm{
+  height: 14px;
+}
+.pro{
+  font-size: 18px;
+  display: inline-block;
+  color: #000;
+}
+.name{
+  font-size: 70px;
+  font-family:  cursive inherit fantasy sans-serif monospace;
+}
+.ago{
+    width: 919px;
+    height: 2104px;
+    background-color: #F4A460;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 568px;
+    margin-top: -2104px;
+    /*border-left: 1px dotted #000;*/
+}
+
+/*左内容区*/
+.article-left{
+  width: 568px;
+  /*background-color: #EEEEEE;*/
+  float: left;
+  word-spacing: 1.5px;
+  line-height: 180%
+}
+/*教育*/
+.edcation{
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 160px;
+}
+.edcation img{
+  margin-bottom: -9px;
+}
+.edcation p {
+    font-size: 1.2em;
+}
+.edcation-head{
+    margin-left: 90px;
+    margin-bottom: 23px;
+}
+.cut{
+  width: 342px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.edcation-content{
+  margin-left: 20px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  line-height: 32px;
+  word-spacing: 2.4px;
+}
+/*工作经历*/
+.job-exp{
+  width: 100%;
+  margin-left: 160px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.job-exp span, .job-exp .cover-content {
+    font-size: 1.2em;
+}
+.job-exp .j-content {
+    font-size: 1.2em;
+}
+.job-head{
+  margin-bottom: 23px;
+  margin-left: 90px;
+}
+.j-content{
+  margin-top: 12px;
+  margin-left: 20px;
+  line-height: 32px;
+  word-spacing: 2.4px;
+  font-size: 17px;
+}
+.job-exp img{
+  margin-bottom: -9px;
+}
+.cover{
+  height: 28px;
+  background-color: #292929;
+  margin-bottom: 32px;
+  width: 342px;
+  color: white;
+  /*margin-left: 60px;*/
+  border-radius: 10px;
+}
+.cover-content{
+  display: inline-block;
+  margin-left: 18px;
+}
+.job-content{
+  width: 100%;
+  margin-left: 70px;
+}
+/*个人项目*/
+.other-user{
+  margin-left: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.other-user span, .other-user li {
+    font-size: 1.2em;
+}
+.other-head-user{
+  margin-bottom: 23px;
+  margin-left: 90px;
+}
+#person-game{
+  margin-bottom: 28px;
+}
+.other-list-user{
+  margin-left: 50px;
+  line-height: 32px
+  font-size: 17px;
+}
+.user-li{
+  line-height: 60px;
+  font-size: 19px;
+}
+.user-li .btn{
+  background-color: #000;
+  color: #FFFFFF;
+  font-size: 1rem;
+  border-radius: 0.5rem ;
+  cursor:pointer;
+  letter-spacing: 1rem;
+  text-indent: 0.5rem;
+  margin-left: 5px;
+}
+.user-li p{
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.other-head-user img{
+  margin-bottom: -12px;
+}
+.other-list-user a{
+  color:#000 ;
+  text-decoration: none;
+}
+/*相关链接*/
+#cut-link{
+  margin-bottom: 24px;
+}
+.other-user-link{
+    margin-left: 160px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.other-user-link span, .other-user-link li {
+    font-size: 1.2em;
+}
+.user-link:first-child{
+    margin-top: 23px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 32px;
+    list-style: none;
+}
+.user-link{
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: 17px;
+    line-height: 32px;
+    list-style: none;
+}
+.user-link>a{
+    color: #fff;
+    color: #00E5EE;
+    text-decoration: none;
+}
+
+/*右内容区*/
+.article-right{
+  width: 500px;
+  height: 1180px;
+  /*background-color: #EEEEEE;*/
+  float: left;
+  word-spacing: 1.5px;
+  line-height: 180%;
+  margin-left: 216px;
+  /*border-left: 1px solid #000;*/
+}
+/*理论实践*/
+.prog{
+    margin-top: 138px;
+}
+.prog p, .prog span, .prog h3, .prog li {
+    font-size: 1.2em;
+}
+.cover-right{
+  height: 28px;
+  background-color: #292929;
+  margin-bottom: 32px;
+  width: 500px;
+  color: white;
+  /*margin-left: 60px;*/
+  border-radius: 10px;
+}
+/*理论实践*/
+.skill{
+  width: 400px;
+  margin-left: 60px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+.skill-head{
+  margin-bottom: 22px;
+  margin-left: 180px;
+}
+.prog .skill-head img{
+    margin-bottom: -10px;
+}
+.prog .skill-list h3{
+    font-size: 15px;
+}
+.prog .skill-list p{
+    display: block;
+    margin-top: 12px;
+}
+.prog .skill-list{
+    font-size: 14px;
+}
+.prog .skill-list p{
+    font-weight: bold;
+}
+/*技能*/
+.skill-right{
+  width: 500px;
+  margin-left: 0;
+  margin-top: 48px;
+}
+.skill-head{
+  margin-bottom: 22px;
+  margin-left: 180px;
+}
+.skill-list{
+  margin-left:20px;
+  margin-top: 12px;
+  line-height: 40px;
+}
+
+.skill-list li {
+  margin-left: 22px;
+  line-height: 28px;
+}
+.skill-right img{
+  margin-bottom: -12px;
+}
+.skill-right h3{
+  display: block;
+  margin-top: 12px;
+  color: #00E3E3;
+}
+
+/*其他*/
+.other{
+  margin-top: 60px;
+}
+.other-head{
+    margin-left: 180px;
+    margin-bottom: 32px;
+}
+.other-list{
+  margin-top: 30px;
+  margin-left: 40px;
+  line-height: 32px;
+}
+.other img{
+  margin-bottom: -12px;
+}
+.cut-right{
+  width: 500px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/*效果展示*/
+.other-all{
+  margin-left: 60px;
+  margin-bottom: 20px;
+  margin-top: 220px;
+}
+.other-list-all{
+  margin-left: 42px;
+  list-style: none;
+}
+.other-list-all img{
+  vertical-align: top;
+}
+.other-head-all img{
+  margin-bottom: -10px;
+}
+.cut-all{
+  width: 960px;
+  height: 3px;
+  background-color: #000;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  margin-left: -18px;
+}
